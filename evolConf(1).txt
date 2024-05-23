@@ -1,0 +1,49 @@
+#BUT:MONTER MARCHE FULL EVO
+
+# Simulator Configuration
+simulatorConfFile=simConf.txt
+
+# Evolution Mode - Focus on Brain Evolution
+evolutionMode=brain
+
+# Reference Robot File
+referenceRobotFile=GenerationBest-39.txt 
+
+# Evolution Parameters
+numGenerations=200
+mu=20
+lambda=40
+selection=deterministic-tournament
+replacement=plus
+tournamentSize=2
+
+# Brain Variation Parameters
+pBrainMutate=0.9
+brainSigma=0.2
+brainBounds=-3:3
+useBrainSeed = true
+
+periodSigma = 0.2
+periodBounds = 0.5:2.0
+# Probability for adding hidden neurons and oscillators
+pAddHiddenNeuron=0.8
+pOscillatorNeuron=0.5
+
+#Commonly used body variation parameters
+#addBodyPart=ActiveHinge
+#addBodyPart=FixedBrick
+#addBodyPart=IrSensor
+#maxBodyParts = 20
+
+#Other parameters
+#pNodeInsert=0.095
+#pSubtreeRemove=0.095
+#pNodeRemove=0.095
+#pParameterModify=0.095
+#pSubtreeDuplicate=0.095
+#pSubtreeSwap=0.095
+
+# Parallelization
+socket=127.0.0.1:8001
+socket=127.0.0.1:8002
+socket=127.0.0.1:8003

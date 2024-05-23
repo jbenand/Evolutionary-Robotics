@@ -1,0 +1,23 @@
+#Fitness Function
+scenario=fitness_walk_balanced.js
+
+#Time Parameters 
+timeStep=0.005
+actuationFrequency=25
+simulationTime=15
+
+#Terrain Parameters
+terrainType=flat
+terrainLength=4.8
+terrainWidth=2
+terrainFriction=1.0
+
+#Other Parameters
+sensorNoiseLevel=0.0
+motorNoiseLevel=0.0
+gravity=0,0,-9.8
+capAcceleration=false
+obstaclesConfigFile=stairs.txt
+startPositionConfigFile=startPos.txt
+
+maxDirectionShiftsPerSecond=16
