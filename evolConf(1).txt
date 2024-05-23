@@ -7,7 +7,7 @@ simulatorConfFile=simConf.txt
 evolutionMode=brain
 
 # Reference Robot File
-referenceRobotFile=GenerationBest-39.txt 
+referenceRobotFile=step2rob.txt 
 
 # Evolution Parameters
 numGenerations=200
