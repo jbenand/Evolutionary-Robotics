@@ -1,0 +1,18 @@
+0 CoreComponent Core 0
+	0 ActiveHinge AH 0 
+		0 FixedBrick FBSF 0
+	1 FixedBrick L 0
+		0 ParametricJoint Neck 1 0.04000000 0.00000000 0.00000000
+			0 ActiveHinge AHF 1
+				0 FixedBrick FBF 0	
+					0 FixedBrick FBF1 0
+	2 FixedBrick L2 0
+		0 ActiveHinge Arm1 0
+			0 ActiveHinge Arm11 0
+		1 ParametricJoint NeckF1 0 0.04000000 0.00000000 0.00000000
+			0 IrSensor IR1 0
+	3 FixedBrick L3 0
+		0 ActiveHinge Arm2 0
+			0 ActiveHinge Arm22 0
+		2 ParametricJoint NeckF2 0 0.04000000 0.00000000 0.00000000
+			0 IrSensor IR2 0
